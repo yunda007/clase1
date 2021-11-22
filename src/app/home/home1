@@ -1,0 +1,44 @@
+
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Peliculas
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="primary">
+  <ion-input placeholder="Nombre"></ion-input>
+  <p></p>
+  <ion-input placeholder="Apellido"></ion-input>
+  <p></p>
+  <ion-input placeholder="Edad"></ion-input>
+  <p></p>
+  <ion-item color="primary">
+    <ion-label>Tipo de Documento</ion-label>
+    <ion-select placeholder="Seleccionar">
+      <ion-select-option value="cc">Cedula de ciudadania</ion-select-option>
+      <ion-select-option value="p">Targeta de identidad</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <center>
+    <ion-button color="success">Agregar</ion-button>
+  </center>
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>comedia</ion-card-subtitle>
+      <ion-card-title>Que hace</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      ok
+    </ion-card-content>
+    <center>
+      <ion-button color="success">Agregar</ion-button>
+    </center>
+  </ion-card>
+
+</ion-content>
